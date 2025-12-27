@@ -11,26 +11,16 @@ import success from "./component/success";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    
-    <Router>
+    <>
       <Navbar />
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Hero />
-              <About />
-              <Skills />
-              <Projects />
-              <Education />
-              <Contact />
-            </>
-          }
-        />
-        <Route path="/success" element={<success />} />
-      </Routes>
-    </Router>
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Education />
+      <Contact />
+      </>
+        
   );
 }
 

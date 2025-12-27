@@ -27,28 +27,7 @@ const Contact = () => {
           linkedin.com/in/vats-isha
         </a>
       </p>
-      </div>
-
-      <div className="contact-form" id="contact">
-      <h3>Send me a message</h3>
-      <form
-        name="contact"
-        method="POST"
-        className="contact-form"
-        data-netlify="true"
-        netlify-honeypot="bot-field"
-        onSubmit={handleSubmit}
-      >
-        <input type="hidden" name="form-name" value="contact" />
-        <input type="hidden" name="bot-field" />
-
-        <input type="text" className="form-control" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Your Email" required />
-        <textarea name="message" placeholder="Your Message" required />
-
-        <button type="submit" className="btn btn-success">Send Message</button>
-      </form>
-      </div>  
+      </div> 
     </section>
   );
 };
