@@ -2,6 +2,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <h2>Contact</h2>
+      <div className="contact-card">
       <p>Email:{" "}
       <a href="mailto:ivats.nic@gmail.com">
         ivats.nic@gmailcom
@@ -18,8 +19,7 @@ const Contact = () => {
       <a href="https://www.github.com/Isha1906">github.com/Isha1906
       </a>
       </p>
-      <p>
-        LinkedIn:{" "}
+      <p>LinkedIn:{" "}
         <a
           href="https://linkedin.com/in/vats-isha"
           target="_blank"
@@ -27,6 +27,24 @@ const Contact = () => {
           linkedin.com/in/vats-isha
         </a>
       </p>
+      </div>
+      <h3>Send me a message</h3>
+      <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+      >
+        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="bot-field" />
+
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required />
+
+        <button type="submit">Send Message</button>
+      </form>
+      
     </section>
   );
 };
