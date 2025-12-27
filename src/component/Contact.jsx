@@ -32,6 +32,7 @@ const Contact = () => {
       <div className="contact-form">
       <h3>Send me a message</h3>
       <form
+        netlify
         name="contact"
         method="POST"
         className="contact-form"
