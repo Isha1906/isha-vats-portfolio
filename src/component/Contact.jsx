@@ -28,10 +28,12 @@ const Contact = () => {
         </a>
       </p>
       </div>
+
       <h3>Send me a message</h3>
       <form
         name="contact"
         method="POST"
+        className="contact-form"
         data-netlify="true"
         netlify-honeypot="bot-field"
       >
