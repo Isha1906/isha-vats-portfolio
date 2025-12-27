@@ -41,7 +41,7 @@ const Contact = () => {
         <input type="hidden" name="form-name" value="contact" />
         <input type="hidden" name="bot-field" />
 
-        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="text" className="form-control" name="name" placeholder="Your Name" required />
         <input type="email" name="email" placeholder="Your Email" required />
         <textarea name="message" placeholder="Your Message" required />
 
