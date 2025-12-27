@@ -29,10 +29,9 @@ const Contact = () => {
       </p>
       </div>
 
-      <div className="contact-form">
+      <div className="contact-form" id="contact">
       <h3>Send me a message</h3>
       <form
-       
         name="contact"
         method="POST"
         className="contact-form"
