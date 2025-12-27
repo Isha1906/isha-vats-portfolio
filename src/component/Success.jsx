@@ -1,4 +1,4 @@
-const Success = () => {
+const success = () => {
   return (
     <div style={{ textAlign: "center", padding: "4rem" }}>
       <h2>Message Sent ✅</h2>
@@ -7,4 +7,4 @@ const Success = () => {
   );
 };
 
-export default Success;
+export default success;
