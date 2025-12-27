@@ -1,0 +1,44 @@
+const Projects = () => {
+  return (
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div style={card}>
+        <h4>Hospital Management Website</h4>
+        <p><b>Tech:</b> HTML, CSS, JavaScript, PHP, MySQL</p>
+        <p>Responsive hospital website with form handling and database integration.</p>
+      </div>
+
+      <div style={card}>
+        <h4>Grocery Store Management System</h4>
+        <p><b>Tech:</b> Java, Swing, MySQL</p>
+        <p>Desktop application with inventory and product management.</p>
+      </div>
+
+      <div style={card}>
+        <h4>Food Ordering Application</h4>
+        <p><b>Tech:</b> Spring Boot, Angular, MySQL</p>
+        <p>Full-stack application with REST APIs and user management.</p>
+        <a href="https://github.com/Isha1906/Food-Ordering-App" target="_blank">
+          GitHub
+        </a>
+      </div>
+
+      <div style={card}>
+        <h4>PG Life Application</h4>
+        <p><b>Tech:</b> React, PHP, MySQL</p>
+        <p>PG accommodation platform with authentication and listings.</p>
+      </div>
+    </section>
+  );
+};
+
+const card = {
+  background: "#fff",
+  padding: "20px",
+  borderRadius: "8px",
+  marginBottom: "20px",
+  boxShadow: "0 4px 8px rgba(0,0,0,0.05)"
+};
+
+export default Projects;
