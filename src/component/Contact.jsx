@@ -32,12 +32,13 @@ const Contact = () => {
       <div className="contact-form">
       <h3>Send me a message</h3>
       <form
-        netlify
+       
         name="contact"
         method="POST"
         className="contact-form"
         data-netlify="true"
         netlify-honeypot="bot-field"
+        onSubmit={handleSubmit}
       >
         <input type="hidden" name="form-name" value="contact" />
         <input type="hidden" name="bot-field" />
