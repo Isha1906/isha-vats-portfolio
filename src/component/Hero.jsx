@@ -1,4 +1,4 @@
-import resume from "../assets/Isha-Vats.pdf";
+import resume from "../assets/ISHA-VATS.pdf";
 
 const Hero = () => {
   return (
