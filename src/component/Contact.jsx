@@ -1,11 +1,13 @@
+import { useState } from "react";
 const Contact = () => {
+  const [submitted, setSubmitted]=useState(false);
   return (
     <section id="contact" className="container py-5">
       <h2 className="text-center">Get In Touch</h2>
       <div className="contact-card row mb-5 text-center">
       <p>Email:{" "}
       <a href="mailto:ivats.nic@gmail.com">
-        ivats.nic@gmailcom
+        ivats.nic@gmail.com
       </a>
       </p>
 
@@ -28,12 +30,16 @@ const Contact = () => {
         </a>
       </p>
       </div> 
+      {submitted &&
+      (
+        <div className="alert alert-success text-center" role="alert">
+        ✅ Thank you! Your message has been sent successfully.
+        </div>
+      )}
 
       <div className="row justify-content-center">
         <div className="col-md-8 col-lg-6">
-          <div className="alert alert-success text-center" role="alert">
-  Your message will be sent securely. You’ll see a confirmation next.
-</div>
+          
 
           <form
             name="contact"
