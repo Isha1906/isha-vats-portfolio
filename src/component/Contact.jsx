@@ -31,11 +31,16 @@ const Contact = () => {
 
       <div className="row justify-content-center">
         <div className="col-md-8 col-lg-6">
+          <div className="alert alert-success text-center" role="alert">
+  Your message will be sent securely. You’ll see a confirmation next.
+</div>
+
           <form
             name="contact"
             method="POST"
             data-netlify="true"
             netlify-honeypot="bot-field"
+            
           >
             
             <input type="hidden" name="form-name" value="contact" />
