@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <section id="contact" className="container py-5">
-      <h2>Get In Touch</h2>
+      <h2 className="text-center">Get In Touch</h2>
       <div className="contact-card row mb-5 text-center">
       <p>Email:{" "}
       <a href="mailto:ivats.nic@gmail.com">
