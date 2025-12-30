@@ -7,8 +7,7 @@ import Skills from "./component/Skills";
 import Projects from "./component/Projects";
 import Education from "./component/Education";
 import Contact from "./component/Contact";
-import success from "./component/success";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 function App() {
   return (
     <>
