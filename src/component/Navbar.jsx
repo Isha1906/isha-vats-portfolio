@@ -1,33 +1,19 @@
+import "../style/Navbar.css";
+
 const Navbar = () => {
   return (
-    <nav style={styles.nav}>
-      <h3 style={{ fontWeight: "600" }}>Isha Vats</h3>
-      <div style={{ display: "flex", flexWrap: "wrap" }}>
-  <a href="#projects" style={styles.link}>Projects</a>
-  <a href="#contact" style={styles.link}>Contact</a>
-</div>
+    <header>
+      <nav className="container">
+        <h3>Isha Vats</h3>
+        <div className="nav-links">
+          <a href="#projects" >Projects</a>
+          <a href="#contact" >Contact</a>
+        </div>
 
-    </nav>
+      </nav>
+    </header>
+
   );
-};
-
-const styles = {
-  nav: {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    padding: "18px 12%",
-    backgroundColor: "#ffffff",
-    boxShadow: "0 2px 6px rgba(0,0,0,0.08)",
-    position: "sticky",
-    top: 0,
-    zIndex: 100
-  },
-  link: {
-    marginLeft: "25px",
-    color: "#1f2937",
-    fontWeight: "500"
-  }
 };
 
 export default Navbar;
