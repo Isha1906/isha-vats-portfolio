@@ -5,7 +5,6 @@ const Projects = () => {
       <div style={card}>
         <h4>Ryze AI Website Redesign (Frontend Assignment)</h4>
         <p><b>Tech:</b> React, Javascript, HTML, CSS, Git, Vercel</p>
-        <span>Frontend redesign assignment focused on improving UI, routing, and deployment.</span>
         <p>
         <ul type="disc">
           <li>Redesigned website layout using React and modern UI practices</li>
