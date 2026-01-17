@@ -2,6 +2,21 @@ const Projects = () => {
   return (
     <section id="projects">
       <h2>Projects</h2>
+      <div style={card}>
+        <h4>Ryze AI Website Redesign (Frontend Assignment)</h4>
+        <p><b>Tech:</b> React, Javascript, HTML, CSS, Git, Vercel</p>
+        <span>Frontend redesign assignment focused on improving UI, routing, and deployment.</span>
+        <p>
+        <ul type="disc">
+          <li>Redesigned website layout using React and modern UI practices</li>
+          <li>Implemented client-side routing for Features and Pricing pages</li>
+          <li>Fixed deployment and routing issues on Vercel</li>
+        </ul>
+        </p>
+        <a href="https://ryze-website-assignment.vercel.app" target="_blank">
+          Ryze AI</a>
+          <a href="https://github.com/Isha1906/ryze-website-assigment">Github Repo</a>
+      </div>
 
       <div style={card}>
         <h4>Hospital Management Website</h4>
