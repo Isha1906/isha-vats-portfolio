@@ -13,9 +13,13 @@ const Projects = () => {
           <li>Fixed deployment and routing issues on Vercel</li>
         </ul>
         </p>
-        <a href="https://ryze-website-assignment.vercel.app" target="_blank">
+        <p><a href="https://ryze-website-assignment.vercel.app" target="_blank">
           Ryze AI</a>
-          <a href="https://github.com/Isha1906/ryze-website-assigment">Github Repo</a>
+        </p>
+        <p>
+        <a href="https://github.com/Isha1906/ryze-website-assigment">Github Repo</a>
+        </p>
+          
       </div>
 
       <div style={card}>
