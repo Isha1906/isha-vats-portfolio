@@ -16,7 +16,7 @@ const Projects = () => {
           Ryze AI</a>
         </p>
         <p>
-        <a href="https://github.com/Isha1906/ryze-website-assigment">Github Repo</a>
+        <a href="https://github.com/Isha1906/ryze-website-assignment">Github Repo</a>
         </p>
           
       </div>
