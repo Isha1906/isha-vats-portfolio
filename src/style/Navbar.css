@@ -5,8 +5,8 @@ header {
   /* border-radius: 25px solid black; */
   /* border-bottom: 1px solid #E5E7EB; */
   z-index: 100;
-  box-shadow: 0 4px 12px rgba(10, 10, 10, 0.548);
-  background-color: rgba(128, 236, 85, 0.349);
+  box-shadow: 0 4px 12px rgba(85, 168, 236, 0.349);
+  background-color: rgba(243, 244, 245, 0.349);
 }
 
 nav {

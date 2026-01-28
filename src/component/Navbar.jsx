@@ -6,8 +6,8 @@ const Navbar = () => {
       <nav className="container">
         <h3>Isha Vats</h3>
         <div className="nav-links">
-          <a href="#projects" >Projects</a>
-          <a href="#contact" >Contact</a>
+          <a href="#projects" className="btn btn-outline ">Projects</a>
+          <a href="#contact" className="btn btn-outline">Contact</a>
         </div>
 
       </nav>

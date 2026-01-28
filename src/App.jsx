@@ -8,6 +8,7 @@ import Projects from "./component/Projects";
 import Education from "./component/Education";
 import Contact from "./component/Contact";
 import "../src/App.css"
+import "../src/index.css"
 function App() {
   return (
     <>
@@ -15,9 +16,9 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Education />
       <Skills />
       <Projects />
-      <Education />
       <Contact />
       </>
         
