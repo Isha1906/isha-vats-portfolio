@@ -10,7 +10,7 @@
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 16px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.788);
 }
 .card:hover{
     transform: translateY(-6px);
