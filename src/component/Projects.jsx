@@ -8,7 +8,7 @@ const Projects = () => {
       <div className="Project-List">
 
         {/* Future Power BI Project */}
-        <div className="card featured">
+        {/* <div className="card featured">
           <h4>Retail Sales Analytics Dashboard (Coming Soon)</h4>
 
           <p><b>Tech:</b> Excel, MySQL, Power BI</p>
@@ -21,7 +21,7 @@ const Projects = () => {
           </ul>
 
           <p><b>Status:</b> Currently Building</p>
-        </div>
+        </div> */}
 
         {/* Netflix */}
         <div className="card">
