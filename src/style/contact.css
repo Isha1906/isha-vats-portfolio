@@ -47,13 +47,13 @@
 }
 
 .contact-item a {
-    color: #2563eb;
+    color: #252525;
     text-decoration: none;
     font-size: 1rem;
     transition: .3s;
 }
 
 .contact-item a:hover {
-    color: #1d4ed8;
+   
     text-decoration: none;
 }

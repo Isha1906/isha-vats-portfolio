@@ -13,14 +13,14 @@ const Contact = () => {
       <div className="contact-card">
 
         <div className="contact-item">
-          <span>📧</span>
+          <span>Email: </span>
           <a href="mailto:ivats.nic@gmail.com">
             ivats.nic@gmail.com
           </a>
         </div>
 
         <div className="contact-item">
-          <span>💻</span>
+          <span>Github: </span>
           <a
             href="https://github.com/Isha1906"
             target="_blank"
@@ -31,24 +31,13 @@ const Contact = () => {
         </div>
 
         <div className="contact-item">
-          <span>🔗</span>
+          <span>LinkedIn: </span>
           <a
             href="https://linkedin.com/in/vats-isha"
             target="_blank"
             rel="noreferrer"
           >
             linkedin.com/in/vats-isha
-          </a>
-        </div>
-
-        <div className="contact-item">
-          <span>🏆</span>
-          <a
-            href="https://www.hackerrank.com/profile/ivats_nic"
-            target="_blank"
-            rel="noreferrer"
-          >
-            HackerRank Profile
           </a>
         </div>
 
