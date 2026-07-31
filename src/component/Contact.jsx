@@ -20,6 +20,11 @@ const Contact = () => {
         </div>
 
         <div className="contact-item">
+          <span>Mobile: </span>
+          <strong>8700300801</strong>
+        </div>
+
+        <div className="contact-item">
           <span>Github: </span>
           <a
             href="https://github.com/Isha1906"

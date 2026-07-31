@@ -35,14 +35,6 @@ const Projects = () => {
             <li>Analyzed trends across genres, countries, and release years.</li>
             <li>Performed data validation to ensure reporting accuracy.</li>
           </ul>
-
-          <a
-            href="https://github.com/Isha1906"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub Repository
-          </a>
         </div>
 
         {/* Food2Go */}
@@ -57,14 +49,6 @@ const Projects = () => {
             <li>Applied VLOOKUP, SUMIF, COUNTIF, and Conditional Formatting.</li>
             <li>Generated business reports for operational insights.</li>
           </ul>
-
-          <a
-            href="https://github.com/Isha1906"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub Repository
-          </a>
         </div>
 
         {/* Employee */}
@@ -79,14 +63,6 @@ const Projects = () => {
             <li>Implemented CRUD operations.</li>
             <li>Developed SQL queries using joins, aggregate functions, and views.</li>
           </ul>
-
-          <a
-            href="https://github.com/Isha1906"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub Repository
-          </a>
         </div>
 
         {/* Food Ordering */}
