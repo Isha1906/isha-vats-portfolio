@@ -21,7 +21,7 @@ const Contact = () => {
 
         <div className="contact-item">
           <span>Mobile: </span>
-          <strong>8700300801</strong>
+          8700300801
         </div>
 
         <div className="contact-item">
