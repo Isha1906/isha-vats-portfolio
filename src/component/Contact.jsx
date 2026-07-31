@@ -1,37 +1,56 @@
-import { useState } from "react";
 const Contact = () => {
-  const [submitted, setSubmitted]=useState(false);
   return (
-    <section id="contact" className="container py-5">
-      <h2 className="text-center">Get In Touch</h2>
-      <div className="contact-card row mb-5 text-center">
-      <p>Email:{" "}
-      <a href="mailto:ivats.nic@gmail.com">
-        ivats.nic@gmail.com
-      </a>
+    <section id="contact" className="contact-section">
+      <h2>Get In Touch</h2>
+
+      <p className="contact-subtitle">
+        Feel free to connect with me for opportunities, collaborations, or just
+        to say hello.
       </p>
 
-      <p>HackerRank:{" "}
-      <a href="https://www.hackerrank.com/profile/ivats_nic" target="_blank">
-      hackerrank.com/profile/ivats_nic
-      </a> 
-      </p>
+      <div className="contact-card">
 
-      <p>GitHub:{" "}
-      <a href="https://www.github.com/Isha1906">github.com/Isha1906
-      </a>
-      </p>
-      <p>LinkedIn:{" "}
-        <a
-          href="https://linkedin.com/in/vats-isha"
-          target="_blank"
-        >
-          linkedin.com/in/vats-isha
-        </a>
-      </p>
-      </div> 
-      
-      
+        <div className="contact-item">
+          <span>📧</span>
+          <a href="mailto:ivats.nic@gmail.com">
+            ivats.nic@gmail.com
+          </a>
+        </div>
+
+        <div className="contact-item">
+          <span>💻</span>
+          <a
+            href="https://github.com/Isha1906"
+            target="_blank"
+            rel="noreferrer"
+          >
+            github.com/Isha1906
+          </a>
+        </div>
+
+        <div className="contact-item">
+          <span>🔗</span>
+          <a
+            href="https://linkedin.com/in/vats-isha"
+            target="_blank"
+            rel="noreferrer"
+          >
+            linkedin.com/in/vats-isha
+          </a>
+        </div>
+
+        <div className="contact-item">
+          <span>🏆</span>
+          <a
+            href="https://www.hackerrank.com/profile/ivats_nic"
+            target="_blank"
+            rel="noreferrer"
+          >
+            HackerRank Profile
+          </a>
+        </div>
+
+      </div>
     </section>
   );
 };

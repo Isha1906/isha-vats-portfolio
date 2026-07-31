@@ -11,7 +11,7 @@ const Skills = () => {
       </div>
       <div className="skill-box">
       <p><b>Database:</b> 
-      MySQL, Database Design </p>
+      MySQL, Relational Database Design, ER Diagrams  </p>
       </div>
       <div className="skill-box">
       <p><b>Programming:</b> 
