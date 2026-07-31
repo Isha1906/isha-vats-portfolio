@@ -30,67 +30,7 @@ const Contact = () => {
         </a>
       </p>
       </div> 
-      {submitted &&
-      (
-        <div className="alert alert-success text-center" role="alert">
-        ✅ Thank you! Your message has been sent successfully.
-        </div>
-      )}
-
-      <div className="row justify-content-center">
-        <div className="col-md-8 col-lg-6">
-          
-
-          <form
-            name="contact"
-            method="POST"
-            data-netlify="true"
-            netlify-honeypot="bot-field"
-            onSubmit={()=>setSubmitted(true)}
-          >
-            
-            <input type="hidden" name="form-name" value="contact" />
-            <input type="hidden" name="bot-field" />
-
-            <div className="mb-3">
-              <label className="form-label">Name</label>
-              <input
-                type="text"
-                name="name"
-                className="form-control"
-                placeholder="Your Name"
-                required
-              />
-            </div>
-
-            <div className="mb-3">
-              <label className="form-label">Email</label>
-              <input
-                type="email"
-                name="email"
-                className="form-control"
-                placeholder="Your Email"
-                required
-              />
-            </div>
-
-            <div className="mb-3">
-              <label className="form-label">Message</label>
-              <textarea
-                name="message"
-                className="form-control"
-                rows="4"
-                placeholder="Your Message"
-                required
-              ></textarea>
-            </div>
-
-            <button type="submit" className="btn btn-primary w-100">
-              Send Message
-            </button>
-          </form>
-        </div>
-      </div>
+      
       
     </section>
   );
