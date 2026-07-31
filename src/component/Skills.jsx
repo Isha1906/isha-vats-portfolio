@@ -6,16 +6,20 @@ const Skills = () => {
       <h2>Skills</h2>
      <div className="skills-list">
       <div className="skill-box">
-      <p><b>Frontend:</b> HTML, CSS, Javascript, React, Angular, Bootstrap</p>
+      <p><b>Data Analytics:</b> 
+         SQL, Advance Excel, Power BI, Data Cleaning & Reporting</p>
       </div>
       <div className="skill-box">
-      <p><b>Backend:</b> Java, Spring Boot, Hibernate, PHP</p>
+      <p><b>Database:</b> 
+      MySQL, Database Design </p>
       </div>
       <div className="skill-box">
-      <p><b>Database:</b> MySQL</p>
+      <p><b>Programming:</b> 
+      Java, Python, HTML/CSS, JavaScript</p>
       </div>
       <div className="skill-box">
-      <p><b>Tools:</b> Git, GitHub, Postman</p>
+      <p><b>Tools:</b> 
+      MySQL Workbench, GitHub, MS Excel, Google Sheets, Eclipse, VS Code</p>
       </div>
      </div>
     </section>

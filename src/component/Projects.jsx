@@ -1,68 +1,116 @@
-import "../style/Project.css"
+import "../style/Project.css";
 
 const Projects = () => {
   return (
     <section id="projects">
-      <h2>Projects</h2>
-      <div className="Project-List">
-        <div className="card">
-          <h4>Ryze AI Website Redesign (Frontend Assignment)</h4>
-          <p><b>Tech:</b> React, Javascript, HTML, CSS, Git, Vercel</p>
-          <p>
-            <ul type="disc">
-              <li>Redesigned website layout using React and modern UI practices</li>
-              <li>Implemented client-side routing for Features and Pricing pages</li>
-              <li>Fixed deployment and routing issues on Vercel</li>
-            </ul>
-          </p>
-          <p><a href="https://ryze-website-assignment.vercel.app" target="_blank">
-            Ryze AI</a>
-          </p>
-          <p>
-            <a href="https://github.com/Isha1906/ryze-website-assignment">Github Repo</a>
-          </p>
+      <h2>Featured Projects</h2>
 
+      <div className="Project-List">
+
+        {/* Future Power BI Project */}
+        <div className="card featured">
+          <h4>Retail Sales Analytics Dashboard (Coming Soon)</h4>
+
+          <p><b>Tech:</b> Excel, MySQL, Power BI</p>
+
+          <ul>
+            <li>Cleaning and validating raw retail sales datasets using Microsoft Excel.</li>
+            <li>Performing SQL analysis to identify sales trends, customer behavior, and product performance.</li>
+            <li>Building an interactive Power BI dashboard with KPIs, charts, and filters.</li>
+            <li>Generating business insights to support operational decision-making.</li>
+          </ul>
+
+          <p><b>Status:</b> Currently Building</p>
         </div>
+
+        {/* Netflix */}
         <div className="card">
-          <h4>PG Life Application</h4>
-          <p><b>Tech:</b> React, PHP, MySQL</p>
-          <p>
-            <ul type="disc">
-              <li>Developed a PG accommodation platform for students and working professionals</li>
-              <li>Implemented user authentication (login/signup) and session handling</li>
-              <li>Integrated backend APIs using PHP and MySQL for data storage and retrieval</li>
-              <li>Designed responsive UI using React for better user experience</li>
-              <li>Future scope: payment integration and booking management</li>
-            </ul>
-          </p>
-        </div>
-        <div className="card">
-          <h4>Food Ordering Application</h4>
-          <p><b>Tech:</b> Spring Boot, Angular, MySQL</p>
-          <p>
-            <ul type="disc">
-              <li>Developed a full-stack food ordering application using Spring Boot and Angular</li>
-              <li>Created REST APIs for authentication, menu, and order management</li>
-              <li>Implemented role-based access for admin and users</li>
-              <li>Built responsive UI for browsing menus and placing orders</li>
-              <li>Integrated MySQL database for users, food items, and orders</li>
-              <li>Handled frontend-backend communication using HTTP services</li>
-            </ul>
-          </p>
-          <a href="https://github.com/Isha1906/Food-Ordering-App" target="_blank">
-            GitHub
+          <h4>Netflix Data Analysis</h4>
+
+          <p><b>Tech:</b> MySQL</p>
+
+          <ul>
+            <li>Imported and analyzed Netflix datasets using MySQL.</li>
+            <li>Used JOIN, GROUP BY, ORDER BY, aggregate functions, and subqueries.</li>
+            <li>Analyzed trends across genres, countries, and release years.</li>
+            <li>Performed data validation to ensure reporting accuracy.</li>
+          </ul>
+
+          <a
+            href="https://github.com/Isha1906"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub Repository
           </a>
         </div>
+
+        {/* Food2Go */}
         <div className="card">
-          <h4>Hospital Management Website</h4>
-          <p><b>Tech:</b> HTML, CSS, JavaScript, PHP, MySQL</p>
-          <p>Responsive hospital website with form handling and database integration.</p>
+          <h4>Food2Go Business Analysis</h4>
+
+          <p><b>Tech:</b> Microsoft Excel</p>
+
+          <ul>
+            <li>Cleaned and validated operational datasets using Excel.</li>
+            <li>Created Pivot Table reports to analyze sales and outlet performance.</li>
+            <li>Applied VLOOKUP, SUMIF, COUNTIF, and Conditional Formatting.</li>
+            <li>Generated business reports for operational insights.</li>
+          </ul>
+
+          <a
+            href="https://github.com/Isha1906"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub Repository
+          </a>
         </div>
+
+        {/* Employee */}
         <div className="card">
-          <h4>Grocery Store Management System</h4>
-          <p><b>Tech:</b> Java, Swing, MySQL</p>
-          <p>Desktop application with inventory and product management.</p>
+          <h4>Employee Management Database</h4>
+
+          <p><b>Tech:</b> MySQL</p>
+
+          <ul>
+            <li>Designed a relational employee database.</li>
+            <li>Created ER diagrams and normalized tables.</li>
+            <li>Implemented CRUD operations.</li>
+            <li>Developed SQL queries using joins, aggregate functions, and views.</li>
+          </ul>
+
+          <a
+            href="https://github.com/Isha1906"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub Repository
+          </a>
         </div>
+
+        {/* Food Ordering */}
+        <div className="card">
+          <h4>Food Ordering Application</h4>
+
+          <p><b>Tech:</b> Spring Boot, Angular, MySQL</p>
+
+          <ul>
+            <li>Developed a full-stack food ordering application.</li>
+            <li>Designed the backend database schema using MySQL.</li>
+            <li>Implemented REST APIs for authentication and order management.</li>
+            <li>Integrated Angular frontend with Spring Boot backend.</li>
+          </ul>
+
+          <a
+            href="https://github.com/Isha1906/Food-Ordering-App"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub Repository
+          </a>
+        </div>
+
       </div>
     </section>
   );

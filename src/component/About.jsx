@@ -1,15 +1,20 @@
 const About = () => {
   return (
-    <section>
+    <section id="about">
       <h2>About Me</h2>
+
       <p>
-        I am an MCA graduate with hands-on experience in frontend development using React.
-        I enjoy converting designs into clean, responsive user interfaces and working on real-world projects.
+        I am an MCA student with a strong interest in Data Analytics, SQL, and
+        Database Management. I enjoy transforming raw data into meaningful
+        insights through data cleaning, analysis, reporting, and visualization.
       </p>
+
       <p>
-        I have worked on multiple projects using React, Java, Spring Boot, PHP,
-        and MySQL and I am seeking opportunities as a Frontend, Backend, or
-        Full-Stack Developer.
+        Through academic and personal projects, I have worked with SQL,
+        Advanced Excel, MySQL, and Java while building a solid understanding of
+        relational databases and business reporting. I am currently expanding my
+        skills in Power BI and Python for Data Analytics to build end-to-end
+        analytics solutions.
       </p>
     </section>
   );
